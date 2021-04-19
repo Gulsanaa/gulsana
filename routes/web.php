@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\LocalizationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,7 +21,4 @@ Route::get('project', function() {
     return view('project');
 });
 
-Route::get('/{lang}', function ($lang){
-    App::setlocale($lang);
-    return view('project');
-});
+Route::get("{locale}/project", [LocalizationController::class , "project"]);
