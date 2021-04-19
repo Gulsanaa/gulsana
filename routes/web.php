@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('project', function() {
     return view('project');
 });
+
+Route::get('/{lang}', function ($lang){
+    App::setlocale($lang);
+    return view('project');
+});

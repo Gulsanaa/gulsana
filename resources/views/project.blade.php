@@ -9,21 +9,17 @@
 </head>
 <body>
 <div class="menu">
-<div id="coffee" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">Coffee</div>
-<div id="order online" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)" >Order Online</div>
-<div id="about us" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)" >About Us</div>
-<div id="contacts" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">Contacts</div>
+<div id="coffee" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">{{ __('lang.div') }}</div>
+<div id="order online" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)" >{{ __('lang.div') }}</div>
+<div id="about us" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)" >{{ __('lang.div') }}</div>
+<div id="contacts" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">{{ __('lang.div') }}</div>
 <img  onclick ="window.location.reload()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOd7OC_3hdLSpG3wl85YgcP9CJ8bkSGkzJZw&usqp=CAU" alt="coffee" width="40px">
 </div>
 
 <div class="img">
     <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdwC8jSMth9MBAOjn3jsVtg0Nw6F1TgCxQ1w&usqp=CAU" alt="coffee" width="300px">
-    <h1 id="text0">Welcome to our coffee shop!</h1>
-    <p id="text1">The coffee house is a public catering enterprise, non-profit menu of audarmasy
-is coffee and tea in combination with pastries, snacks, refreshments and
-alcoholic beverages. At the same time, the business of coffee shops is not only (and not so much) in
-the potential to provide, bіraқ the needs of visitors in the wives in meeting the needs of the wives
-spending leisure time, short rest, providing a place for communication and business meetings</p>
+    <h1 id="text0">{{ __('lang.h1') }}</h1>
+    <p id="text1">{{ __('lang.p') }}</p>
 </div>
 
 
