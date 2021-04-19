@@ -21,6 +21,7 @@ Route::get('project', function() {
     return view('project');
 });
 
+
 Route::get("{locale}/project", [LocalizationController::class , "project"]);
 
 
