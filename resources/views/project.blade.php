@@ -19,7 +19,11 @@
 <div class="img">
     <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdwC8jSMth9MBAOjn3jsVtg0Nw6F1TgCxQ1w&usqp=CAU" alt="coffee" width="300px">
     <h1 id="text0">Welcome to our coffee shop!</h1>
-    <p id="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Commodi accusantium repellat molestias.Tempora quod animi voluptatem fugit tempore obcaecati quos amet labore dolorum quae.Ut id animi nesciunt pariatur reprehenderit.</p>
+    <p id="text1">The coffee house is a public catering enterprise, non-profit menu of audarmasy
+is coffee and tea in combination with pastries, snacks, refreshments and
+alcoholic beverages. At the same time, the business of coffee shops is not only (and not so much) in
+the potential to provide, bіraқ the needs of visitors in the wives in meeting the needs of the wives
+spending leisure time, short rest, providing a place for communication and business meetings</p>
 </div>
 
 
