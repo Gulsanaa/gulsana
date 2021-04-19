@@ -33,5 +33,20 @@
     <p id="text1">{{ __('lang.word6') }}</p>
 </div>
 
+<div class = "container1">
+<div class = "row" style="margin-top:-330px">
+<div class = "col-md-4 col-md-offset-4">
+<h3>File upload + Autorename</h3>
+<hr>
+<form action="{{ route('file.upload') }}" method="get"  enctype="multipart/form-data">
+@csrf
+<input type="file" name="_file" id ="_file" class="form-control"> <br>
+<button type ="submit" class ="btn btn-success">Upload</button>
+</form>
+</div>
+</div>
+</div>
+
+
 </body>
 </html>

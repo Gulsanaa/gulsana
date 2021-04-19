@@ -1,7 +1,7 @@
 <?php
 use App\Http\Controllers\LocalizationController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\FileUploadController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +22,10 @@ Route::get('project', function() {
 });
 
 Route::get("{locale}/project", [LocalizationController::class , "project"]);
+
+
+
+
+
+Route::get('file-upload', [FileUploadController:: class, 'index']);
+Route::get('upload', [FileUploadController::class, 'upload'])->name('file.upload');
