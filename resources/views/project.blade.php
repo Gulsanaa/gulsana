@@ -33,6 +33,7 @@
     <p id="text1">{{ __('lang.word6') }}</p>
 </div>
 
+
 <div class = "container1">
 <div class = "row" style="margin-top:-330px">
 <div class = "col-md-4 col-md-offset-4">
@@ -46,6 +47,7 @@
 </div>
 </div>
 </div>
+
 
 
 </body>

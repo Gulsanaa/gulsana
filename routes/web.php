@@ -2,6 +2,7 @@
 use App\Http\Controllers\LocalizationController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FileUploadController;
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,12 +22,9 @@ Route::get('project', function() {
     return view('project');
 });
 
-
-Route::get("{locale}/project", [LocalizationController::class , "project"]);
-
-
-
-
+Route::get('{locale}/project', [LocalizationController::class , 'project']);
 
 Route::get('file-upload', [FileUploadController:: class, 'index']);
 Route::get('upload', [FileUploadController::class, 'upload'])->name('file.upload');
+
+Route::get('/send-email', [MailController::class, ' sendEmail']);
